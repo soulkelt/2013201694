@@ -8,11 +8,16 @@ namespace _2013201694
 {
     public class LugarViaje
     {
-        private TipoViaje _TipoViaje;
-        public LugarViaje(TipoViaje tipoViaje)
+        private TipoLugar _TipoLugar;
+        public LugarViaje(TipoLugar tipoLugar)
         {
-            _TipoViaje = tipoViaje;
+            _TipoLugar = tipoLugar;
         }
-        public TipoViaje lugarViaje { get { return _TipoViaje; } }
+        public TipoLugar lugarViaje { get { return _TipoLugar; } }
+        public LugarViaje() { }
+        public void agregarTipoLugar(string tipo)
+        {
+            _TipoLugar = new TipoLugar(tipo);
+        }
     }
 }

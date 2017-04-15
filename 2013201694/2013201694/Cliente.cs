@@ -19,5 +19,7 @@ namespace _2013201694
         {
             NombreCliente = nombre;
         }
+        public Cliente() { }
+
     }
 }

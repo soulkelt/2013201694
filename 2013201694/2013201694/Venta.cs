@@ -22,6 +22,7 @@ namespace _2013201694
             _Administrativo = new Administrativo();
             _Servicio = new List<Servicio>();
         }
+
         public void agregarServicio(string servicio)
         {
             if (servicio.Length > 0)
@@ -29,6 +30,16 @@ namespace _2013201694
                 _Servicio.Add(new Servicio(servicio));
             }
 
+        }
+
+        public void agregarUsuario(string NombreSet)
+        {
+            if (NombreSet.Length > 0)
+            {
+                _Cliente.Add(new Cliente(NombreSet));
+
+            }
+            else return;
         }
     }
 }
