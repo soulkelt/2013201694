@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2013201694
 {
-    class Prueba
+    public class TipoLugar
     {
-        public string Name { get; set; }
+        string tipoLugar { set; get; }
     }
 }

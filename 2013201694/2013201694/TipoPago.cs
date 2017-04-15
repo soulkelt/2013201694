@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2013201694
 {
-    class Program
+    public class TipoPago
     {
-        static void Main(string[] args)
-        {
-        }
+        string tipoPago { set; get; }
     }
 }
